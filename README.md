@@ -87,3 +87,9 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-cloudwatch-createalarm
 My Own:
 
 
+
+Documentation:
+
+![image](https://user-images.githubusercontent.com/104793540/186406597-c461de4f-66b6-4170-838e-63c29ea3364d.png)
+
+![image](https://user-images.githubusercontent.com/104793540/186406031-126dc79b-cd8e-4ce6-a577-4356dc1314f5.png)
