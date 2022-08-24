@@ -26,13 +26,13 @@ Cloud monitoring is a method of reviewing, observing, and managing the operation
 - Maintaining availability and security of the services
 
 
-### what are the 4 GOLDAN SIGNALS/RULES/AREAS that should be monitored at least:
+#### what are the 4 GOLDAN SIGNALS/RULES/AREAS that should be monitored at least:
 - User Experience
 - Performance Benchmarks
 - Internal Infrastructure and Network
 - Availability and Route Monitoring
 
-### what is Cloudwatch
+#### what is Cloudwatch
 
 CloudWatch provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, and optimize resource utilization. CloudWatch collects monitoring and operational data in the form of logs, metrics, and events.
 
@@ -44,14 +44,27 @@ Amazon CloudWatch is a monitoring and observability service built for:
 
 You get a unified view of operational health and gain complete visibility of your AWS resources, applications, and services running on AWS and on-premises. You can use CloudWatch to detect anomalous behavior in your environments, set alarms, visualize logs and metrics side by side, take automated actions, troubleshoot issues, and discover insights to keep your applications running smoothly.
 
-### What is Alert Management - use cases?
+#### What is Alert Management - use cases?
+As alerts generate, you can view more information about them, acknowledge them, and take action to resolve them.
+use cases:
+- a
+- b
+- c
 
-### what actions to be taken in case of Alert
+#### what actions to be taken in case of Alert
+You can respond to an alert in the following ways:
+- Manually remediate the alert.
+- Acknowledge an alert that requires attention.
+- Create an incident or security incident.
+- Create a case.
+- Close the alert.
+- Resolve any incident that is related to the alert.
+- Reopen the alert.
 
-### What is SNS - Simple Notification Service
+#### What is SNS - Simple Notification Service
 SNS stands for Simple Notification Service. SNS is a fast, flexible fully managed push notification service. as it is a web service that coordinates and manages the delivery and sending of messages to subscribing endpoints or clients. It allows for sending an individual message or fan-out message to a large number of recipients or to other distributed was services.
 
-### What is SQS
+#### What is SQS
 Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
 benefits:
 - Eliminate administrative overhead
