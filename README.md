@@ -27,10 +27,14 @@ Cloud monitoring is a method of reviewing, observing, and managing the operation
 
 
 #### What are the 4 GOLDAN SIGNALS/RULES/AREAS that should be monitored at least:
-- User Experience
-- Performance Benchmarks
-- Internal Infrastructure and Network
-- Availability and Route Monitoring
+The four golden signals of monitoring are latency, traffic, errors, and saturation. If you can only measure four metrics of your user-facing system, focus on these four.
+
+- latency 
+- traffic
+- errors
+- saturation 
+
+https://sre.google/sre-book/monitoring-distributed-systems/
 
 #### What is Cloudwatch
 
