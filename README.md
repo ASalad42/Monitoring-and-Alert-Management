@@ -9,7 +9,7 @@ DevOps teams should embrace incidents and have high-quality monitors in place to
 - Build monitors to ensure dependent services operate as expected
 - Allocate time to build required dashboards and train team members to use them
 
-#### What is Monitoring and benefits - 
+#### What is Monitoring and benefits  
 
 Cloud monitoring is a method of reviewing, observing, and managing the operational workflow in a cloud-based IT infrastructure. Manual or automated management techniques confirm the availability and performance of websites, servers, applications, and other cloud infrastructure. This continuous evaluation of resource levels, server response times, and speed predicts possible vulnerability to future issues before they arise.
 
@@ -18,7 +18,7 @@ Cloud monitoring is a method of reviewing, observing, and managing the operation
 - Achieving and maintaining ideal application performance
 - Optimizing service availability thanks to rapid issue reporting and rapid resolutions
 
-#### why should we monitor:
+#### Why should we monitor:
 - Frequent code changes demand visibility
 - Automated collaboration
 - Change management
@@ -26,13 +26,13 @@ Cloud monitoring is a method of reviewing, observing, and managing the operation
 - Maintaining availability and security of the services
 
 
-#### what are the 4 GOLDAN SIGNALS/RULES/AREAS that should be monitored at least:
+#### What are the 4 GOLDAN SIGNALS/RULES/AREAS that should be monitored at least:
 - User Experience
 - Performance Benchmarks
 - Internal Infrastructure and Network
 - Availability and Route Monitoring
 
-#### what is Cloudwatch
+#### What is Cloudwatch
 
 CloudWatch provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, and optimize resource utilization. CloudWatch collects monitoring and operational data in the form of logs, metrics, and events.
 
@@ -51,7 +51,7 @@ use cases:
 - b
 - c
 
-#### what actions to be taken in case of Alert
+#### What actions to be taken in case of Alert
 You can respond to an alert in the following ways:
 - Manually remediate the alert.
 - Acknowledge an alert that requires attention.
