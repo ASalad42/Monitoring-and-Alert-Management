@@ -98,6 +98,12 @@ Documentation:
 
 ![image](https://user-images.githubusercontent.com/104793540/186427035-5c88b3c1-c868-4ca3-8ab8-5e57cf784153.png)
 
+![image](https://user-images.githubusercontent.com/104793540/186430201-44f7ee6a-8979-4e50-a54e-39d1397ff344.png)
+
+![image](https://user-images.githubusercontent.com/104793540/186430323-632d96b6-51f1-4f87-baef-d54b17df0130.png)
+
+![image](https://user-images.githubusercontent.com/104793540/186430534-3dd50f74-72b2-4a3a-8c60-fd3e6c403bb2.png)
+
 ![image](https://user-images.githubusercontent.com/104793540/186427451-5b207a4d-a175-4856-a846-9acdf01ee863.png)
 
 ![image](https://user-images.githubusercontent.com/104793540/186429892-f6a03ff1-dd5e-4df4-a3ee-41f558ace187.png)
