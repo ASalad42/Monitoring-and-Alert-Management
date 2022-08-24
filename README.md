@@ -72,4 +72,14 @@ benefits:
 - Keep sensitive data secure
 
 
-Diagram for Monitoring your ec2 instance (include alert management in your diagram)
+#### Diagram for Monitoring your ec2 instance (include alert management in your diagram)
+
+![image](https://user-images.githubusercontent.com/104793540/186397871-6b564d05-028d-4e84-9426-58fcc8b05d48.png)
+https://aws.amazon.com/blogs/security/how-to-monitor-host-based-intrusion-detection-system-alerts-on-amazon-ec2-instances/
+
+![image](https://user-images.githubusercontent.com/104793540/186398302-02d6e078-c909-4bf3-8b37-c7efe41ab800.png)
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-cloudwatch-createalarm.html
+
+My Own:
+
+
