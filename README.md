@@ -94,4 +94,10 @@ Documentation:
 
 ![image](https://user-images.githubusercontent.com/104793540/186406031-126dc79b-cd8e-4ce6-a577-4356dc1314f5.png)
 
-![image](https://user-images.githubusercontent.com/104793540/186422175-e5ce7c0a-59e3-4fe8-a825-2c36d179448d.png)
+![image](https://user-images.githubusercontent.com/104793540/186423898-6eee0b30-8b73-46a2-b240-438db80e6b86.png)
+
+![image](https://user-images.githubusercontent.com/104793540/186427035-5c88b3c1-c868-4ca3-8ab8-5e57cf784153.png)
+
+![image](https://user-images.githubusercontent.com/104793540/186427451-5b207a4d-a175-4856-a846-9acdf01ee863.png)
+
+
