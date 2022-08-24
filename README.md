@@ -46,11 +46,17 @@ You get a unified view of operational health and gain complete visibility of you
 
 ### What is Alert Management - use cases?
 
-what actions to be taken in case of Alert
+### what actions to be taken in case of Alert
 
 ### What is SNS - Simple Notification Service
 SNS stands for Simple Notification Service. SNS is a fast, flexible fully managed push notification service. as it is a web service that coordinates and manages the delivery and sending of messages to subscribing endpoints or clients. It allows for sending an individual message or fan-out message to a large number of recipients or to other distributed was services.
 
 ### What is SQS
+Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
+benefits:
+- Eliminate administrative overhead
+- Reliably deliver messages
+- Keep sensitive data secure
+
 
 Diagram for Monitoring your ec2 instance (include alert management in your diagram)
