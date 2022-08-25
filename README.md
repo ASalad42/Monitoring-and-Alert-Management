@@ -187,3 +187,7 @@ Choose Export to export your log data to Amazon S3.
 ![image](https://user-images.githubusercontent.com/104793540/186626667-83d5f97f-66af-4d20-a13a-074147698c58.png)
 
 To view the status of the log data that you exported to Amazon S3, choose Actions and then View all exports to Amazon S3.
+
+![image](https://user-images.githubusercontent.com/104793540/186627394-82816aad-d9cf-460f-b8ba-1fccdc37b367.png)
+
+https://eng122-ayanle-boto3-bucket.s3.eu-west-1.amazonaws.com/ayanle-log/dd75c944-3af9-497a-b442-50a26233d932/i-093aecf17bf771f5c/000000.gz
