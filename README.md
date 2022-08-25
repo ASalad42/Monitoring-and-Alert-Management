@@ -205,3 +205,5 @@ https://eng122-ayanle-boto3-bucket.s3.eu-west-1.amazonaws.com/ayanle-log/dd75c94
 ![image](https://user-images.githubusercontent.com/104793540/186646812-b7bda242-fc84-48a3-a687-440414cb12f9.png)
 
 
+highly available 
+![image](https://user-images.githubusercontent.com/104793540/186648963-a8a4fbbf-7007-4d4e-8273-714a81df638c.png)
