@@ -110,4 +110,23 @@ Documentation:
 ![image](https://user-images.githubusercontent.com/104793540/186429892-f6a03ff1-dd5e-4df4-a3ee-41f558ace187.png)
 
 
+### Logs
+
+Open the CloudWatch console at https://console.aws.amazon.com/cloudwatch/.
+
+In the navigation pane, choose Log groups.
+
+![image](https://user-images.githubusercontent.com/104793540/186606269-e29369b9-f432-442f-86d6-9d93314c6666.png)
+
+On the Log Groups screen, choose the name of the log group.
+
+![image](https://user-images.githubusercontent.com/104793540/186606514-34abd509-215f-46e6-a892-41351fadc2ba.png)
+
+Choose Actions, Export data to Amazon S3.
+
+![image](https://user-images.githubusercontent.com/104793540/186606762-654d2ad1-3086-4aab-9786-d1716482f290.png)
+
+On the Export data to Amazon S3 screen, under Define data export, set the time range for the data to export using From and To.
+
+![image](https://user-images.githubusercontent.com/104793540/186607237-0925e33d-592c-4c5a-a31b-f54b5b14c783.png)
 
