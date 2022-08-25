@@ -142,4 +142,32 @@ On the Export data to Amazon S3 screen, under Define data export, set the time r
 
 Choose Export to export your log data to Amazon S3.
 
+![image](https://user-images.githubusercontent.com/104793540/186614615-37adc4c6-2ecd-43db-851c-52defb4ac529.png)
+
+- Set permissions on an Amazon S3 bucket
+- In the Amazon S3 console, choose the bucket that you created in step 1.
+- Choose Permissions, Bucket policy.
+- In the Bucket Policy Editor, add one of the following policies. Change my-exported-logs to the name of your S3 bucket and random-string
+- 
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+          "Action": "s3:GetBucketAcl",
+          "Effect": "Allow",
+          "Resource": "arn:aws:s3:::my-exported-logs",
+          "Principal": { "Service": "logs.us-west-2.amazonaws.com" }
+      },
+      {
+          "Action": "s3:PutObject" ,
+          "Effect": "Allow",
+          "Resource": "arn:aws:s3:::my-exported-logs/random-string/*",
+          "Condition": { "StringEquals": { "s3:x-amz-acl": "bucket-owner-full-control" } },
+          "Principal": { "Service": "logs.us-west-2.amazonaws.com" }
+      }
+    ]
+}
+```
+
 To view the status of the log data that you exported to Amazon S3, choose Actions and then View all exports to Amazon S3.
