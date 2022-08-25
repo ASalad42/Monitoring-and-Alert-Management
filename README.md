@@ -229,6 +229,8 @@ Debugging npm for ami before asg:
 https://unixcop.com/how-to-create-a-systemd-service-in-linux/
 https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html
 
+in nodeapp and database > while pages were working i did the following:
+
 - You can find running linux service under path /etc/systemd/system
 - `cd /etc/systemd/system`
 - `sudo nano npm.service`
@@ -255,7 +257,13 @@ WantedBy=multi-user.target
 
 ![image](https://user-images.githubusercontent.com/104793540/186716710-f75f542c-1ebb-453b-b2cc-c1a8dc6785cd.png)
 
-- create ami of this now
+- create ami of this now (YESS instantly worked with ip) (made ami using nodeapp 
+- launched
+- ![image](https://user-images.githubusercontent.com/104793540/186723878-6b863cf5-5114-4471-a23e-5987f27b63e8.png)
+
+- ![image](https://user-images.githubusercontent.com/104793540/186723623-cbf6cbfe-cfde-41d4-936f-6643afd0681b.png)
+
+- 
 - launch template from that 
 - auto scale 
 - 
