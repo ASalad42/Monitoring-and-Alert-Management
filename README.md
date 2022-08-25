@@ -225,4 +225,33 @@ create an autoscaling group with min 2, desired 2 max 3 - based on cpu usage 40%
 storing logs for asg instance in s3:
 
 
+Debugging npm for ami before asg:
+https://unixcop.com/how-to-create-a-systemd-service-in-linux/
+https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html
+
+- You can find running linux service under path /etc/systemd/system
+- `cd /etc/systemd/system`
+- `sudo nano npm.service`
+- add the following:
+- 
+```
+[Unit]
+Description=running npm app
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/deployment/app
+ExecStart=/usr/bin/npm start
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+- `sudo systemctl daemon-reload`
+- `sudo systemctl start npm.service`
+- `sudo systemctl status npm.service`
+- `sudo systemctl enable npm.service`
+
+![image](https://user-images.githubusercontent.com/104793540/186716710-f75f542c-1ebb-453b-b2cc-c1a8dc6785cd.png)
 
