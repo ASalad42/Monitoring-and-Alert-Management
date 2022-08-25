@@ -1,5 +1,12 @@
 # Monitoring and Alert Management
 
+
+
+
+![image](https://user-images.githubusercontent.com/104793540/186613020-0d26f8f4-d5f3-44f5-a691-5678a0c573be.png)
+
+![image](https://user-images.githubusercontent.com/104793540/186613095-0af794a2-038c-4244-81de-7bc3702023c7.png)
+
 DevOps monitoring entails overseeing the entire development process from planning, development, integration and testing, deployment, and operations. It involves a complete and real-time view of the status of applications, services, and infrastructure in the production environment. 
 
 DevOps teams should embrace incidents and have high-quality monitors in place to respond to them. Some of the best practices to help with this are:
