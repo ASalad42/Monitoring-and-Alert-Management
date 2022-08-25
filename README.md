@@ -191,3 +191,17 @@ To view the status of the log data that you exported to Amazon S3, choose Action
 ![image](https://user-images.githubusercontent.com/104793540/186627394-82816aad-d9cf-460f-b8ba-1fccdc37b367.png)
 
 https://eng122-ayanle-boto3-bucket.s3.eu-west-1.amazonaws.com/ayanle-log/dd75c944-3af9-497a-b442-50a26233d932/i-093aecf17bf771f5c/000000.gz
+
+
+
+## Autoscaling and load balancer
+
+
+![image](https://user-images.githubusercontent.com/104793540/186645511-810feced-32b6-471c-a9ba-ab684bb591ec.png)
+![image](https://user-images.githubusercontent.com/104793540/186645544-ab9dea3e-0ec8-438e-b06e-3c3676666ca6.png)
+![image](https://user-images.githubusercontent.com/104793540/186645852-7eaf2dca-b91a-49e8-9da7-4a5ae3313028.png)
+![image](https://user-images.githubusercontent.com/104793540/186646249-f55cd730-845a-4aee-862d-bf16e3556068.png)
+![image](https://user-images.githubusercontent.com/104793540/186646325-a693b20c-4587-457b-b076-eacbc8340733.png)
+![image](https://user-images.githubusercontent.com/104793540/186646812-b7bda242-fc84-48a3-a687-440414cb12f9.png)
+
+
