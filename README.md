@@ -196,6 +196,11 @@ https://eng122-ayanle-boto3-bucket.s3.eu-west-1.amazonaws.com/ayanle-log/dd75c94
 
 ## Autoscaling and load balancer
 
+![image](https://user-images.githubusercontent.com/104793540/186675351-2cec10a9-2868-4b2b-8ac9-a0bd0551d8aa.png)
+ 
+Diagram of my architecture explaining steps and functionality of ALB -ASG - TG - Multi- AZs deployment
+
+
 
 ![image](https://user-images.githubusercontent.com/104793540/186645511-810feced-32b6-471c-a9ba-ab684bb591ec.png)
 ![image](https://user-images.githubusercontent.com/104793540/186645544-ab9dea3e-0ec8-438e-b06e-3c3676666ca6.png)
