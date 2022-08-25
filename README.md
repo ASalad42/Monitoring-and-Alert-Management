@@ -255,3 +255,7 @@ WantedBy=multi-user.target
 
 ![image](https://user-images.githubusercontent.com/104793540/186716710-f75f542c-1ebb-453b-b2cc-c1a8dc6785cd.png)
 
+- create ami of this now
+- launch template from that 
+- auto scale 
+- 
