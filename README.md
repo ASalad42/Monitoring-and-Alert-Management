@@ -214,3 +214,7 @@ highly available
 ![image](https://user-images.githubusercontent.com/104793540/186648963-a8a4fbbf-7007-4d4e-8273-714a81df638c.png)
 ![image](https://user-images.githubusercontent.com/104793540/186663691-9fd4449e-e78b-460e-bb85-06dc39c1ab01.png)
 
+create an autoscaling group with min 2, desired 2 max 3 - based on cpu usage 40%:
+![image](https://user-images.githubusercontent.com/104793540/186688879-197d58d2-8271-48fb-a580-3e4bb77911a4.png)
+![image](https://user-images.githubusercontent.com/104793540/186689668-6c2798a0-8e0d-434f-82d8-d6bbff3d8cc1.png)
+![image](https://user-images.githubusercontent.com/104793540/186690007-10f31dc9-5b7c-48c6-a4e2-d51500bcd01d.png)
