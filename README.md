@@ -136,6 +136,15 @@ Choose Actions, Export data to Amazon S3.
 
 ![image](https://user-images.githubusercontent.com/104793540/186617610-c3acea7f-bda0-46bd-bcb9-208c1732cf3d.png)
 
+- To install and configure CloudWatch Logs on an existing Ubuntu Server, CentOS, or Red Hat instance
+- Connect to your EC2 instance
+- Run the CloudWatch Logs agent installer using one of two options. You can run it directly from the internet, or download the files and run it standalone.
+- ![image](https://user-images.githubusercontent.com/104793540/186619375-8f1a45eb-69ea-4971-aca9-2eaf277ea6c9.png)
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/QuickStartEC2Instance.html
+
+![image](https://user-images.githubusercontent.com/104793540/186619561-6ba4c0d5-d3ad-4781-9611-0cebdc2f9424.png)
+
+
 ![image](https://user-images.githubusercontent.com/104793540/186617734-1f96007d-6b07-497d-8c0e-6d38cbde6416.png)
 
 
