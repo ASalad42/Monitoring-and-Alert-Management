@@ -130,3 +130,6 @@ On the Export data to Amazon S3 screen, under Define data export, set the time r
 
 ![image](https://user-images.githubusercontent.com/104793540/186607237-0925e33d-592c-4c5a-a31b-f54b5b14c783.png)
 
+Choose Export to export your log data to Amazon S3.
+
+To view the status of the log data that you exported to Amazon S3, choose Actions and then View all exports to Amazon S3.
