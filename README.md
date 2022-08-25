@@ -152,6 +152,8 @@ On the Export data to Amazon S3 screen, under Define data export, set the time r
 
 ![image](https://user-images.githubusercontent.com/104793540/186607237-0925e33d-592c-4c5a-a31b-f54b5b14c783.png)
 
+s3 bucket prefix > ayanle-log (from s3 policy)
+
 Choose Export to export your log data to Amazon S3.
 
 ![image](https://user-images.githubusercontent.com/104793540/186614615-37adc4c6-2ecd-43db-851c-52defb4ac529.png)
@@ -174,12 +176,14 @@ Choose Export to export your log data to Amazon S3.
       {
           "Action": "s3:PutObject" ,
           "Effect": "Allow",
-          "Resource": "arn:aws:s3:::eng122-ayanle-boto3-bucket/random-string/*",
+          "Resource": "arn:aws:s3:::eng122-ayanle-boto3-bucket/ayanle-log/*",
           "Condition": { "StringEquals": { "s3:x-amz-acl": "bucket-owner-full-control" } },
           "Principal": { "Service": "logs.eu-west-1.amazonaws.com" }
       }
     ]
 } 
 ```
+
+![image](https://user-images.githubusercontent.com/104793540/186626667-83d5f97f-66af-4d20-a13a-074147698c58.png)
 
 To view the status of the log data that you exported to Amazon S3, choose Actions and then View all exports to Amazon S3.
