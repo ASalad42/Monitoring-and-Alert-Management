@@ -119,6 +119,7 @@ Documentation:
 
 ### Logs
 
+
 Open the CloudWatch console at https://console.aws.amazon.com/cloudwatch/.
 
 In the navigation pane, choose Log groups.
@@ -133,7 +134,9 @@ Choose Actions, Export data to Amazon S3.
 
 ![image](https://user-images.githubusercontent.com/104793540/186606762-654d2ad1-3086-4aab-9786-d1716482f290.png)
 
-![image](https://user-images.githubusercontent.com/104793540/186610953-25560769-90f3-466c-8a33-8aa60e39aca2.png)
+![image](https://user-images.githubusercontent.com/104793540/186617610-c3acea7f-bda0-46bd-bcb9-208c1732cf3d.png)
+
+![image](https://user-images.githubusercontent.com/104793540/186617734-1f96007d-6b07-497d-8c0e-6d38cbde6416.png)
 
 
 On the Export data to Amazon S3 screen, under Define data export, set the time range for the data to export using From and To.
@@ -144,7 +147,7 @@ Choose Export to export your log data to Amazon S3.
 
 ![image](https://user-images.githubusercontent.com/104793540/186614615-37adc4c6-2ecd-43db-851c-52defb4ac529.png)
 
-- Set permissions on an Amazon S3 bucket
+- Set permissions on an Amazon S3 bucket (https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/S3ExportTasksConsole.html)
 - In the Amazon S3 console, choose the bucket that you created in step 1.
 - Choose Permissions, Bucket policy.
 - In the Bucket Policy Editor, add one of the following policies. Change my-exported-logs to the name of your S3 bucket and random-string
@@ -156,18 +159,18 @@ Choose Export to export your log data to Amazon S3.
       {
           "Action": "s3:GetBucketAcl",
           "Effect": "Allow",
-          "Resource": "arn:aws:s3:::my-exported-logs",
-          "Principal": { "Service": "logs.us-west-2.amazonaws.com" }
+          "Resource": "arn:aws:s3:::eng122-ayanle-boto3-bucket",
+          "Principal": { "Service": "logs.eu-west-1.amazonaws.com" }
       },
       {
           "Action": "s3:PutObject" ,
           "Effect": "Allow",
-          "Resource": "arn:aws:s3:::my-exported-logs/random-string/*",
+          "Resource": "arn:aws:s3:::eng122-ayanle-boto3-bucket/random-string/*",
           "Condition": { "StringEquals": { "s3:x-amz-acl": "bucket-owner-full-control" } },
-          "Principal": { "Service": "logs.us-west-2.amazonaws.com" }
+          "Principal": { "Service": "logs.eu-west-1.amazonaws.com" }
       }
     ]
-}
+} 
 ```
 
 To view the status of the log data that you exported to Amazon S3, choose Actions and then View all exports to Amazon S3.
