@@ -126,6 +126,9 @@ Choose Actions, Export data to Amazon S3.
 
 ![image](https://user-images.githubusercontent.com/104793540/186606762-654d2ad1-3086-4aab-9786-d1716482f290.png)
 
+![image](https://user-images.githubusercontent.com/104793540/186610953-25560769-90f3-466c-8a33-8aa60e39aca2.png)
+
+
 On the Export data to Amazon S3 screen, under Define data export, set the time range for the data to export using From and To.
 
 ![image](https://user-images.githubusercontent.com/104793540/186607237-0925e33d-592c-4c5a-a31b-f54b5b14c783.png)
