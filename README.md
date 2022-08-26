@@ -203,7 +203,7 @@ Diagram of my architecture explaining steps and functionality of ALB -ASG - TG -
 - Application Load Balancer distributes the traffic between EC2 instances so that no one instance gets overwhelmed 
 - Autoscaling will automatically adjust the amount of computational resources based on the server load 
 - Highly Available & Scalable 
-
+- note: Vpc > subnet for private and public + gateways 
 
 
 
