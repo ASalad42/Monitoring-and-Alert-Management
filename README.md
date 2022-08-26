@@ -195,10 +195,15 @@ https://eng122-ayanle-boto3-bucket.s3.eu-west-1.amazonaws.com/ayanle-log/dd75c94
 
 
 ## Autoscaling and load balancer
+Diagram of my architecture explaining steps and functionality of ALB -ASG - TG - Multi- AZs deployment
 
 ![image](https://user-images.githubusercontent.com/104793540/186675351-2cec10a9-2868-4b2b-8ac9-a0bd0551d8aa.png)
  
-Diagram of my architecture explaining steps and functionality of ALB -ASG - TG - Multi- AZs deployment
+
+- Application Load Balancer distributes the traffic between EC2 instances so that no one instance gets overwhelmed 
+- Autoscaling will automatically adjust the amount of computational resources based on the server load 
+- Highly Available & Scalable 
+
 
 
 
