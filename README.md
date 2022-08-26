@@ -204,7 +204,7 @@ Diagram of my architecture explaining steps and functionality of ALB -ASG - TG -
 - Autoscaling will automatically adjust the amount of computational resources based on the server load 
 - Highly Available & Scalable 
 - note: Vpc > subnet for private and public + gateways 
-
+https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
 
 
 ![image](https://user-images.githubusercontent.com/104793540/186645511-810feced-32b6-471c-a9ba-ab684bb591ec.png)
@@ -270,10 +270,23 @@ WantedBy=multi-user.target
 
 - create ami of this now (YESS instantly worked with ip) (made ami using nodeapp 
 - launched
-- ![image](https://user-images.githubusercontent.com/104793540/186723878-6b863cf5-5114-4471-a23e-5987f27b63e8.png)
+- ![image](https://user-images.githubusercontent.com/104793540/186875890-aac128aa-7b54-4e6a-b75a-eb66c95cde2e.png)
 
-- ![image](https://user-images.githubusercontent.com/104793540/186723623-cbf6cbfe-cfde-41d4-936f-6643afd0681b.png)
+- ![image](https://user-images.githubusercontent.com/104793540/186875921-1c327ba9-4460-4207-ab9d-ed1a4b4274c2.png)
 
 To do:
 - launch template from that 
+
+![image](https://user-images.githubusercontent.com/104793540/186877303-dce6d6b2-bded-4b26-8996-058dbcba072f.png)
+
 - auto scale 
+![image](https://user-images.githubusercontent.com/104793540/186877594-f9c8ed13-5745-4113-aca7-f2944e51bbb1.png)
+
+target group - Listeners and routing
+![image](https://user-images.githubusercontent.com/104793540/186877913-8ad5dca1-c4da-4a1d-be93-81c979012c43.png)
+
+Results:
+![image](https://user-images.githubusercontent.com/104793540/186879017-0af48590-d85e-4f59-b54f-7bf2910aa6fa.png)
+![image](https://user-images.githubusercontent.com/104793540/186879142-a287a65b-1e55-4cad-a0f9-c5c1d789e0f6.png)
+![image](https://user-images.githubusercontent.com/104793540/186878973-b7dfc6c5-6406-49f6-bbbe-56921d4e082d.png)
+
