@@ -53,12 +53,6 @@ Amazon CloudWatch is a monitoring and observability service built for:
 
 You get a unified view of operational health and gain complete visibility of your AWS resources, applications, and services running on AWS and on-premises. You can use CloudWatch to detect anomalous behavior in your environments, set alarms, visualize logs and metrics side by side, take automated actions, troubleshoot issues, and discover insights to keep your applications running smoothly.
 
-#### What is Alert Management - use cases?
-As alerts generate, you can view more information about them, acknowledge them, and take action to resolve them.
-use cases:
-- a
-- b
-- c
 
 #### What actions to be taken in case of Alert
 You can respond to an alert in the following ways:
@@ -88,9 +82,6 @@ https://aws.amazon.com/blogs/security/how-to-monitor-host-based-intrusion-detect
 
 ![image](https://user-images.githubusercontent.com/104793540/186398302-02d6e078-c909-4bf3-8b37-c7efe41ab800.png)
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-cloudwatch-createalarm.html
-
-My Own:
-
 
 
 Documentation:
