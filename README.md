@@ -222,10 +222,16 @@ create an autoscaling group with min 2, desired 2 max 3 - based on cpu usage 40%
 ![image](https://user-images.githubusercontent.com/104793540/186691927-e41755f3-faf9-4259-a062-911865573d29.png)
 ![image](https://user-images.githubusercontent.com/104793540/186692021-e58976c0-1a65-4288-ab94-9d6e2a89e5ec.png)
 
-storing logs for asg instance in s3:
 
 
 Debugging npm for ami before asg:
+
+- Npm is starting when ec2 is being installed 
+- User data shell gets terminated after instance is launched 
+- Create service > enable service  > build ami and npm will already running
+- Ec2 with nodeapp working, enabled in the background > make ami and it should be working > it did!
+- Issue was: User data was being run while machine was being created then its gone 
+
 https://unixcop.com/how-to-create-a-systemd-service-in-linux/
 https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html
 
@@ -263,7 +269,6 @@ WantedBy=multi-user.target
 
 - ![image](https://user-images.githubusercontent.com/104793540/186723623-cbf6cbfe-cfde-41d4-936f-6643afd0681b.png)
 
-- 
+To do:
 - launch template from that 
 - auto scale 
-- 
